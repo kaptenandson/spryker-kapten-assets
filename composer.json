@@ -1,0 +1,40 @@
+{
+  "name": "spryker-eco/kapten-assets",
+  "description": "Kapten assets for Spryker",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tim Wendel",
+      "email": "tim.wendel@kapten-son.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "spryker/gui": "^3.31.0",
+    "spryker/kernel": "^3.33.0"
+  },
+  "require-dev": {
+    "spryker/code-sniffer": "*",
+    "spryker/testify": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SprykerEco\\": "src/SprykerEco/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SprykerEco\\": "tests/SprykerEco/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0.x-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
